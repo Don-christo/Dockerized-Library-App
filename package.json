@@ -1,0 +1,34 @@
+{
+  "name": "week-6-task-Don-christo",
+  "packageManager": "yarn@4.0.0-rc.43",
+  "scripts": {
+    "start": "node ./dist/app.js",
+    "dev": "nodemon ./dist/app.js",
+    "compile": "tsc -w"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3",
+    "typescript": "^5.1.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5",
+    "@types/cookie-parser": "^1",
+    "@types/debug": "^4",
+    "@types/express": "^4",
+    "@types/http-errors": "^2.0.1",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/morgan": "^1",
+    "@types/supertest": "^2.0.12",
+    "@types/uuid": "^9"
+  }
+}
